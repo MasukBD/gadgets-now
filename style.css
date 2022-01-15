@@ -1,0 +1,38 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* common style  */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ----------
+header style 
+-------------- */
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.main-header{
+    margin-left: 50px;
+}
+.navigation-item{
+    margin-right: 40px;
+}
+/* nav style  */
+nav> ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 15px;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+/* -----------------
+header style ends
+------------------- */
+
