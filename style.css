@@ -113,5 +113,19 @@ hr{
 .optional-heading{
     font-weight: 900;
 }
+
+/* footer design  */
+
+footer{
+    color: white;
+    background-color: #120E43;
+    text-align: center;
+}
+
+.social-icon a{
+    margin-left: 20px;
+    font-size: 30px;
+    color: white;
+}
    
 
