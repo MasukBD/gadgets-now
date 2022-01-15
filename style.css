@@ -120,12 +120,77 @@ footer{
     color: white;
     background-color: #120E43;
     text-align: center;
+    padding-top: 20px;
 }
 
 .social-icon a{
     margin-left: 20px;
+    margin-right: 20px;
     font-size: 30px;
     color: white;
 }
-   
 
+/*---------------
+ Media Queries 
+---------------- */
+
+/* Mobile Devieces  */
+
+@media only screen and (max-width: 688px){
+    .main-header{
+        margin-left: 8em;
+        text-align: center;
+    }
+    .navigation-item{
+        display: none;
+    }
+    .promo-area{
+        display: flex;
+        flex-direction: column;
+    }
+    .half-width{
+        width: 80%;
+    }
+    .brand-logos{
+        display: flex;
+        flex-direction: column;
+    }
+    .products{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+}
+.product-container{
+    margin-left: 45px;
+}
+}
+/* Tablet Devieces  */
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+    .main-header{
+        margin-left: 21em;
+        text-align: center;
+    }
+    .navigation-item{
+        display: none;
+    }
+    .promo-area{
+        display: flex;
+        flex-direction: column;
+    }
+    .half-width{
+        width: 90%;
+    }
+    .brand-logos{
+        display: flex;
+        flex-direction: column;
+    }
+    .products{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+}
+.product-container{
+    margin-left: 45px;
+}
+}
+/* ---------------
+Media Queries Ends 
+-------------------*/
