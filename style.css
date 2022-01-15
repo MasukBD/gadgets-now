@@ -104,6 +104,14 @@ hr{
     color: #B9345A;
     text-decoration: none;
     font-weight: 600;
+    margin-left: 65em;
+}
+#work-hard{
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.optional-heading{
+    font-weight: 900;
 }
    
 
