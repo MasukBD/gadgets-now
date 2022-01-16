@@ -137,6 +137,7 @@ footer{
 /* Mobile Devieces  */
 
 @media only screen and (max-width: 688px){
+    
     .main-header{
         margin-left: 8em;
         text-align: center;
@@ -162,16 +163,12 @@ footer{
 .product-container{
     margin-left: 45px;
 }
+.see-more{
+    margin-left: 10em;
+}
 }
 /* Tablet Devieces  */
 @media only screen and (min-width: 689px) and (max-width: 992px) {
-    .main-header{
-        margin-left: 21em;
-        text-align: center;
-    }
-    .navigation-item{
-        display: none;
-    }
     .promo-area{
         display: flex;
         flex-direction: column;
@@ -189,6 +186,9 @@ footer{
 }
 .product-container{
     margin-left: 45px;
+}
+.see-more{
+    margin-left: 13em;
 }
 }
 /* ---------------
